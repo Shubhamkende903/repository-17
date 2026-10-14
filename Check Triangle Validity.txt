@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int a = 3, b = 4, c = 5;
+    if (a+b>c && a+c>b && b+c>a)
+        printf("Valid Triangle");
+    else
+        printf("Invalid Triangle");
+    return 0;
+}
